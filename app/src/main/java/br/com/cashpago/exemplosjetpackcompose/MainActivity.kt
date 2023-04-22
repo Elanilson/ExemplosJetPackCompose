@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import br.com.cashpago.exemplosjetpackcompose.Componentes.MainTopAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
+import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,7 +27,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                     //Greeting("Android")
                    // MainTopAppBar()
-                    drawer()
+                    //drawer()
+                    navigationBar()
                 }
             }
         }
