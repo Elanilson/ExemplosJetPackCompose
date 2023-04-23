@@ -21,6 +21,8 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.checkbox
 import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.circularProgressIndicator
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
+import br.com.cashpago.exemplosjetpackcompose.Componentes.dropdownMenuItem
+import br.com.cashpago.exemplosjetpackcompose.Componentes.menuSuspenso
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.progressBar
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
@@ -48,7 +50,9 @@ class MainActivity : ComponentActivity() {
                    // card()
                    // checkbox()
                    // progressBar()
-                    circularProgressIndicator()
+                   // circularProgressIndicator()
+                  //  menuSuspenso()
+                    dropdownMenuItem()
                 }
             }
         }
