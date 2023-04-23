@@ -22,6 +22,7 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.circularProgressIndicator
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.dropdownMenuItem
+import br.com.cashpago.exemplosjetpackcompose.Componentes.elevatedAssistChip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.menuSuspenso
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.progressBar
@@ -52,7 +53,8 @@ class MainActivity : ComponentActivity() {
                    // progressBar()
                    // circularProgressIndicator()
                   //  menuSuspenso()
-                    dropdownMenuItem()
+                  //  dropdownMenuItem()
+                    elevatedAssistChip()
                 }
             }
         }
