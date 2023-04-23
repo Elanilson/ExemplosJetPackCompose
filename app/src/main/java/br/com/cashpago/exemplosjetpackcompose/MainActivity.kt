@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import br.com.cashpago.exemplosjetpackcompose.Componentes.MainTopAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.alertDialog
 import br.com.cashpago.exemplosjetpackcompose.Componentes.bottomAppBar
+import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
@@ -32,7 +33,8 @@ class MainActivity : ComponentActivity() {
                     //drawer()
                    // navigationBar()
                     ///bottomAppBar()
-                    alertDialog()
+                    //alertDialog()
+                    chip()
                 }
             }
         }
