@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import br.com.cashpago.exemplosjetpackcompose.Componentes.MainTopAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.alertDialog
 import br.com.cashpago.exemplosjetpackcompose.Componentes.badge
+import br.com.cashpago.exemplosjetpackcompose.Componentes.badgedBox
 import br.com.cashpago.exemplosjetpackcompose.Componentes.bottomAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
@@ -36,7 +37,8 @@ class MainActivity : ComponentActivity() {
                     ///bottomAppBar()
                     //alertDialog()
                     //chip()
-                    badge()
+                    //badge()
+                    badgedBox()
                 }
             }
         }
