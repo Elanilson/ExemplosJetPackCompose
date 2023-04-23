@@ -17,6 +17,7 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.badgedBox
 import br.com.cashpago.exemplosjetpackcompose.Componentes.bottomAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.button
 import br.com.cashpago.exemplosjetpackcompose.Componentes.card
+import br.com.cashpago.exemplosjetpackcompose.Componentes.checkbox
 import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
@@ -42,7 +43,8 @@ class MainActivity : ComponentActivity() {
                     //badge()
                     //badgedBox()
                    // button()
-                    card()
+                   // card()
+                    checkbox()
                 }
             }
         }
