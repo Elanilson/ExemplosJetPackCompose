@@ -21,6 +21,7 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.checkbox
 import br.com.cashpago.exemplosjetpackcompose.Componentes.chip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
+import br.com.cashpago.exemplosjetpackcompose.Componentes.progressBar
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +45,8 @@ class MainActivity : ComponentActivity() {
                     //badgedBox()
                    // button()
                    // card()
-                    checkbox()
+                   // checkbox()
+                    progressBar()
                 }
             }
         }
