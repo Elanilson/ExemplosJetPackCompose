@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import br.com.cashpago.exemplosjetpackcompose.Componentes.MainTopAppBar
+import br.com.cashpago.exemplosjetpackcompose.Componentes.alertDialog
 import br.com.cashpago.exemplosjetpackcompose.Componentes.bottomAppBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
@@ -30,7 +31,8 @@ class MainActivity : ComponentActivity() {
                    // MainTopAppBar()
                     //drawer()
                    // navigationBar()
-                    bottomAppBar()
+                    ///bottomAppBar()
+                    alertDialog()
                 }
             }
         }
