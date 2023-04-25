@@ -28,6 +28,7 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.navegacao
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.progressBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.surface
+import br.com.cashpago.exemplosjetpackcompose.Componentes.switch
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -58,7 +59,8 @@ class MainActivity : ComponentActivity() {
                   //  dropdownMenuItem()
                    // elevatedAssistChip()
                     //navegacao()
-                    surface()
+                    //surface()
+                    switch()
                 }
             }
         }
