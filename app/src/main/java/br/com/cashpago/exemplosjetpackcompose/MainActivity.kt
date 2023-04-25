@@ -24,6 +24,7 @@ import br.com.cashpago.exemplosjetpackcompose.Componentes.drawer
 import br.com.cashpago.exemplosjetpackcompose.Componentes.dropdownMenuItem
 import br.com.cashpago.exemplosjetpackcompose.Componentes.elevatedAssistChip
 import br.com.cashpago.exemplosjetpackcompose.Componentes.menuSuspenso
+import br.com.cashpago.exemplosjetpackcompose.Componentes.navegacao
 import br.com.cashpago.exemplosjetpackcompose.Componentes.navigationBar
 import br.com.cashpago.exemplosjetpackcompose.Componentes.progressBar
 import br.com.cashpago.exemplosjetpackcompose.ui.theme.ExemplosJetPackComposeTheme
@@ -54,7 +55,8 @@ class MainActivity : ComponentActivity() {
                    // circularProgressIndicator()
                   //  menuSuspenso()
                   //  dropdownMenuItem()
-                    elevatedAssistChip()
+                   // elevatedAssistChip()
+                    navegacao()
                 }
             }
         }
